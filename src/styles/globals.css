@@ -1,0 +1,236 @@
+@import "simplebar-react/dist/simplebar.min.css";
+
+.rbc-toolbar button {
+  font-family: "DM Sans", sans-serif;
+}
+.rbc-event.event-default {
+  background-color: #33afc1;
+}
+.rbc-event.event-red {
+  background-color: #e46a76;
+}
+.rbc-event.event-green {
+  background-color: #00c292;
+}
+.rbc-event.event-warning {
+  background-color: #ffa384;
+}
+.rbc-off-range-bg {
+  background-color: #d2d2d20d;
+}
+.darkbg .rbc-today {
+  background-color: #8fbece;
+}
+.darkbg .rbc-month-row + .rbc-month-row,
+.darkbg .rbc-day-bg + .rbc-day-bg,
+.darkbg .rbc-header,
+.darkbg .rbc-month-view,
+.darkbg .rbc-toolbar button,
+.darkbg .rbc-time-content > * + * > * {
+  border-color: #eaeaea57;
+}
+.rbc-event:focus,
+.rbc-day-slot .rbc-background-event:focus {
+  outline: none;
+}
+.darkbg .rbc-toolbar button {
+  color: rgba(255, 255, 255, 0.5);
+}
+.darkbg .rbc-toolbar button:active,
+.darkbg .rbc-toolbar button.rbc-active {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: #d2d2d20d;
+}
+.form-control {
+  height: 50px;
+  line-height: 40px;
+  font-size: 18px;
+  width: 100%;
+  border-width: 1px;
+  padding: 5px;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+  .rbc-btn-group {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .rbc-toolbar .rbc-toolbar-label {
+    margin-bottom: 15px;
+    display: block;
+  }
+  .rbc-calendar {
+    height: 100vh !important;
+  }
+}
+
+.rbc-calendar {
+  min-height: 600px;
+}
+
+.PrimaryItem {
+  background: #33afc1 !important;
+  height: 40px !important;
+  border-radius: 3px !important;
+  border: none !important;
+}
+.SecondaryItem {
+  background: #ffa384 !important;
+  height: 40px !important;
+  border-radius: 3px !important;
+  border: none !important;
+}
+.warningItem {
+  background: #fec90f !important;
+  height: 40px !important;
+  border-radius: 3px !important;
+  border: none !important;
+}
+.successItem {
+  background: #00c292 !important;
+  height: 40px !important;
+  border-radius: 3px !important;
+  border: none !important;
+}
+.errorItem {
+  background: #e46a76 !important;
+  height: 40px !important;
+  border-radius: 3px !important;
+  border: none !important;
+}
+.rct-item-content {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-content: center !important;
+  font-weight: bold !important;
+}
+.react-calendar-timeline .rct-header-root {
+  background: #949db2 !important;
+}
+
+.jodit-status-bar {
+  display: none !important;
+}
+.jodit-wysiwyg {
+  min-height: 40vh !important;
+}
+.jodit-toolbar-button_fullsize,
+.jodit-toolbar-button_about {
+  display: none !important;
+}
+
+p {
+  margin: 0px !important;
+}
+.errorItem {
+  background: #e46a76 !important;
+}
+.react-calendar-timeline .rct-header-root,
+.react-calendar-timeline .rct-header-root > *,
+.react-calendar-timeline .rct-sidebar,
+.react-calendar-timeline .rct-sidebar .rct-sidebar-row.rct-sidebar-row-odd {
+  color: #000;
+  background: #f3f5f8 !important;
+  border: none !important;
+  border-bottom: 1px solid #cccccc !important;
+}
+.rct-dateHeader > span {
+  color: #000;
+  background: #f3f5f8 !important;
+}
+.react-calendar-timeline .rct-dateHeader {
+  color: #000;
+  background: #f3f5f8 !important;
+  border: none !important;
+  border-bottom: 1px solid #cccccc !important;
+  border-left: 1px solid #bbb !important;
+}
+/* .rct-hl-even , .rct-hl-odd , .rct-sidebar-row.rct-sidebar-row-even , .rct-sidebar-row.rct-sidebar-row-odd {
+  height: 40px !important;
+} */
+
+/* .tableContainer {
+    overflow-x: auto !important;
+  } */
+
+.stickyColumn {
+  position: sticky !important;
+  left: 0 !important;
+  background-color: #f3f5f8 !important;
+  border-right: 1px solid #cccccc;
+  z-index: 100 !important;
+}
+.stickyColumn1 {
+  position: sticky !important;
+  left: 140px !important;
+  background-color: #f3f5f8 !important;
+  border-right: 1px solid #cccccc;
+  z-index: 100 !important;
+}
+.stickyColorBg {
+  background-color: #f3f5f8 !important;
+  border-bottom: 1px solid #cccccc;
+  z-index: 110 !important;
+}
+.stickyColumn.stickyColorBg,
+.stickyColumn1.stickyColorBg {
+  z-index: 120 !important;
+}
+.stickyColumn.stickyColorBg,
+.stickyColumn1.stickyColorBg {
+  z-index: 120 !important;
+}
+input#successInputField {
+  color: white !important;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.typing-animation {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(30, end);
+}
+
+.react-calendar-timeline .rct-horizontal-lines .rct-hl-odd {
+  background: transparent !important;
+}
+
+.loader {
+  text-align: center;
+}
+.loader span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 10px;
+  height: 10px;
+  background: rgb(218, 218, 218);
+  border-radius: 10px;
+  animation: loader 0.8s infinite alternate;
+}
+.loader span:nth-of-type(2) {
+  animation-delay: 0.2s;
+}
+.loader span:nth-of-type(3) {
+  animation-delay: 0.6s;
+}
+@keyframes loader {
+  0% {
+    opacity: 0.9;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 0.1;
+    transform: scale(1);
+  }
+}
