@@ -24,7 +24,6 @@ In a competitive business landscape, efficient contract management is more than 
 
 ## Screenshots
 
-![App Screenshot](https://res.cloudinary.com/df6xfkpgb/image/upload/v1692963336/Screenshot_26_cvnhri.png)
 
 ![App Screenshot](https://res.cloudinary.com/df6xfkpgb/image/upload/v1692963335/Screenshot_22_nlyxry.png)
 
@@ -33,3 +32,5 @@ In a competitive business landscape, efficient contract management is more than 
 ![App Screenshot](https://res.cloudinary.com/df6xfkpgb/image/upload/v1692963333/Screenshot_24_jmdrhf.png)
 
 ![App Screenshot](https://res.cloudinary.com/df6xfkpgb/image/upload/v1692963332/Screenshot_25_jtpwsm.png)
+
+![App Screenshot](https://res.cloudinary.com/df6xfkpgb/image/upload/v1692963336/Screenshot_26_cvnhri.png)
